@@ -20,6 +20,6 @@ func main() {
 func Sleep(suffix string) {
 	t, _ := time.ParseDuration(suffix)
 
-	fmt.Println("Now sleep: ", t, "...")
+	fmt.Println("Now sleep: ", t, ".....")
 	time.Sleep(t)
 }
